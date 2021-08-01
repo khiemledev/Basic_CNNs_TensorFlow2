@@ -5,15 +5,16 @@ DEVICE = "gpu"   # cpu or gpu
 EPOCHS = 50
 BATCH_SIZE = 8
 NUM_CLASSES = 5
-IMAGE_HEIGHT = 224
-IMAGE_WIDTH = 224
+IMAGE_HEIGHT = 64
+IMAGE_WIDTH = 64
 CHANNELS = 3
 
 save_model_dir = "saved_model/"
 save_every_n_epoch = 10
 test_image_dir = ""
 
-dataset_dir = "dataset/"
+# dataset_dir = "dataset/"
+dataset_dir = "/gdrive/My Drive/Đồ án môn học/Máy học/TrainValidTest/dataset/"
 train_dir = dataset_dir + "train"
 valid_dir = dataset_dir + "valid"
 test_dir = dataset_dir + "test"
@@ -47,5 +48,5 @@ TEST_SET_RATIO = 0.2
 # b5 = (1.6, 2.2, 456, 0.4)
 # b6 = (1.8, 2.6, 528, 0.5)
 # b7 = (2.0, 3.1, 600, 0.5)
-model_index = 36
+model_index = 32
 

@@ -4,7 +4,7 @@ DEVICE = "gpu"   # cpu or gpu
 # some training parameters
 EPOCHS = 50
 BATCH_SIZE = 8
-NUM_CLASSES = 5
+NUM_CLASSES = 89
 IMAGE_HEIGHT = 64
 IMAGE_WIDTH = 64
 CHANNELS = 3
@@ -14,7 +14,7 @@ save_every_n_epoch = 10
 test_image_dir = ""
 
 # dataset_dir = "dataset/"
-dataset_dir = "/gdrive/My Drive/Đồ án môn học/Máy học/TrainValidTest/dataset/"
+dataset_dir = "/gdrive/My Drive/Đồ án môn học/Máy học/TrainValidTest/"
 train_dir = dataset_dir + "train"
 valid_dir = dataset_dir + "valid"
 test_dir = dataset_dir + "test"
